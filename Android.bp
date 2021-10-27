@@ -1,6 +1,3 @@
-soong_namespace {
-}
-
 android_app_import {
 	name: "ImsService",
 	owner: "mediatek",

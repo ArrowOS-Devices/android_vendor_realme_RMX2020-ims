@@ -1,7 +1,3 @@
-
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/mediatek-ims
-
 PRODUCT_COPY_FILES += \
     vendor/mediatek-ims/proprietary/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM)/bin/vtservice \
     vendor/mediatek-ims/proprietary/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM)/etc/init/init.vtservice.rc \
